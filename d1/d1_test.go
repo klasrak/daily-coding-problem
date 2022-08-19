@@ -6,10 +6,6 @@ import (
 )
 
 func TestTwoSum(t *testing.T) {
-	if twoSum([]int{10, 15, 3, 7}, 17) != true {
-		t.Error("Expected true, got false")
-	}
-
 	defaultAssertionErrorMessage := "Expected %v, got %v"
 
 	type TestCase struct {
